@@ -110,7 +110,6 @@ int FindResourcePath(
     free(acName);
     [file release];
     [ext release];
-    [path release];
     return length;
 }
 
